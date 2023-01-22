@@ -1,0 +1,48 @@
+#section1{
+    display: grid;
+    grid-auto-rows: minmax(120px,auto);
+    margin-bottom: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+    
+
+
+}
+.box{
+    border: 2px solid black;
+    padding: 4px;
+    background-color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+    
+    
+
+
+}
+#section2{
+    display: grid;
+    grid-auto-rows: minmax(400px,auto);
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 200px;
+
+
+}
+#first{
+    display: grid;
+    padding: 4px;
+    
+
+}
+#second{
+    display: grid;
+}
+#third{
+    display: grid;
+}
+#fourth{
+    display: grid;
+}
